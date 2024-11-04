@@ -7,6 +7,7 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         raleway: ['Raleway', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
+        bebas: ['Bebas Neue', 'sans-serif'], 
       },
     },
   },
