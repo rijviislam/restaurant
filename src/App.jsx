@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
+import PopularFoods from "./components/PopularFoods";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Banner />
       <About />
+      <PopularFoods />
     </>
   );
 }
