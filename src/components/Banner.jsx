@@ -1,6 +1,6 @@
 import BannerImg from "../assets/image 1.png";
 import Bg from "../assets/Rectangle 4.png";
-import Svg from "../assets/Vector.svg";
+import Svg from "../assets/Vector copy.svg";
 
 export default function Banner() {
   return (
@@ -36,7 +36,7 @@ export default function Banner() {
           <img
             src={Svg}
             alt="svg"
-            className="lg:absolute md:absolute sm:absolute sm:top-[215px] absolute md:top-[215px] top-[323px] right-0 lg:-top-9 lg:-right-8 lg:z-50 md:-z-50 -z-50"
+            className="lg:absolute md:absolute sm:absolute sm:top-[215px] absolute md:top-[215px] top-[323px] right-0 lg:-top-9 lg:-right-8 lg:z-50 md:-z-50 -z-50 "
           />
           <img
             src={BannerImg}

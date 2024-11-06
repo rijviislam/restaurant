@@ -12,7 +12,7 @@ export default function About() {
   const tabs = ["About", "Experience", "Contact"];
   return (
     <div className=" flex items-center justify-center relative">
-      <div className=" lg:my-[120px] lg:w-[1320px] lg:h-[624px] flex flex-col gap-[72px] lg:py-0 py-8 ">
+      <div className=" lg:my-[120px] lg:w-[1000px] xl:w-[1320px] lg:h-[624px] flex flex-col gap-[72px] lg:py-0 py-8">
         <div className=" flex lg:flex-row md:flex-row flex-col justify-between  lg:items-start md:items-start items-center lg:h-[460px]  gap-8 lg:gap-0 min-w-[330px]">
           <div className="lg:w-[617px] min-w-[330px] lg:px-0 px-[30px]">
             <div className="lg:w-[617px] min-w-[330px] h-[246px] lg:h-[460px] relative ">
@@ -43,7 +43,7 @@ export default function About() {
               <img
                 src={AboutImg}
                 alt=""
-                className="absolute lg:w-[617px] min-w-[330px] object-cover"
+                className="absolute lg:max-w-[617px] min-w-[330px] object-cover"
               />
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex items-center lg:flex-row md:flex-col flex-col justify-center w-full lg:gap-0 gap-8 ">
+        <div className="flex items-center lg:flex-row md:flex-wrap flex-col justify-center w-full lg:gap-0 gap-8 ">
           <div className="flex items-center gap-4 lg:w-[440px] min-w-[330px]">
             <div className="fill-white filter  w-[90px] h-[90px] flex items-center justify-center shadow-xl rounded-full">
               <img src={Package1} alt="" />
