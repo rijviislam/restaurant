@@ -1,6 +1,4 @@
 import { useState } from "react";
-import "react-calendar/dist/Calendar.css";
-import "react-date-picker/dist/DatePicker.css";
 import { useForm } from "react-hook-form";
 import Bg from "../assets/FormBg.jpeg";
 import CalendarIcon from "../assets/calender-date.svg";
