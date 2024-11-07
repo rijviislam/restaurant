@@ -4,7 +4,7 @@ import Bg from "../assets/Rectangle 4.png";
 export default function Navbar() {
   return (
     <div
-      className=" z-50 bg-[#BD1F17] flex items-center justify-center lg:py-8 md:py-5 sm:py-5 py-5 mb-0"
+      className=" bg-[#BD1F17] flex items-center justify-center lg:py-8 md:py-5 sm:py-5 py-5 mb-0 sticky top-0 z-[999]"
       style={{
         backgroundImage: `url(${Bg})`,
       }}
