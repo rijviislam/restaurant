@@ -23,8 +23,12 @@ export default function BookTable() {
   };
 
   return (
-    <div className="relative flex items-center justify-center h-[788px]">
-      <img src={Bg} className=" h-full w-full object-cover" alt="Background" />
+    <div className="relative flex items-center justify-center h-[788px] bg-[#000000CC]">
+      <img
+        src={Bg}
+        className=" h-full w-full bg-[#000000CC] object-cover"
+        alt="Background"
+      />
       <div className="lg:w-[1320px] min-w-[330px] l lg:h-[548px] absolute z-50 ">
         <div className="flex flex-col lg:px-0 px-[30px] md:px-[30px] overflow-hidden">
           <div className="flex gap-[10px] items-center">
