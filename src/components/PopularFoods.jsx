@@ -241,7 +241,7 @@ export default function PopularFoods() {
           </Swiper>
         </div>
       </div>
-      <div className="absolute top-[227px] left-0">
+      <div className="absolute top-[227px] left-0 lg:block hidden">
         <img src={SideImg} alt="" />
       </div>
     </div>
