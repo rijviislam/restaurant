@@ -57,7 +57,7 @@ export default function BookTable() {
         <div className="lg:w-[635px] lg:mt-10 mt-10 md:px-[30px] lg:px-0">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="flex flex-col gap-6 lg:items-start  items-center justify-center lg:justify-start md:justify-start md:items-start"
+            className="flex flex-col gap-6 lg:items-start  items-start justify-center lg:justify-start md:justify-start md:items-start lg:px-0 px-[30px]"
           >
             <div className="flex gap-[30px] lg:flex-row flex-col">
               <input

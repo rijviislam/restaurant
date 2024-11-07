@@ -10,8 +10,12 @@ import X from "../assets/twitter-round-new-alt.svg";
 export default function Footer() {
   return (
     <div className="flex items-center justify-center relative lg:h-[720px] h-[999px]">
-      <div className="lg:w-full min-w-[390px] h-full z-30 bg-[#000000CC] lg:h-[720px] absolute"></div>
-      <img src={Bg} alt="" className="absolute z-10 w-full h-full" />
+      <div className="lg:w-full min-w-[390px]  h-full z-30 bg-[#000000CC] lg:h-[720px] absolute"></div>
+      <img
+        src={Bg}
+        alt=""
+        className="absolute z-10 lg:w-full h-full min-w-[390px]"
+      />
       <div className="lg:w-[1320px] lg:h-[480px] z-50 flex flex-col lg:flex-col items-center">
         <h1
           className="lg:text-[62px] text-[40px] leading-[48px] lg:leading-[64px] font-bold text-[#FFFFFF] flex-wrap text-center"
