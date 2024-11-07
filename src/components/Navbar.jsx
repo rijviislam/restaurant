@@ -61,16 +61,26 @@ export default function Navbar() {
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content rounded-box z-50
-               mt-3 w-52 p-2 shadow text-white border-2 border-red-700 absolute right-1 bg-black"
+               mt-3 w-52 p-2 shadow text-white absolute right-1 bg-black"
+              style={{ fontFamily: "Raleway" }}
             >
-              <li>
-                <a>Item 1</a>
+              <li className="cursor-pointer">
+                <a>Home</a>
               </li>
-              <li>
-                <a>Item 3</a>
+              <li className="cursor-pointer">
+                <a>About</a>
               </li>
-              <li>
-                <a>Item 3</a>
+              <li className="cursor-pointer">
+                <a>Portfolio</a>
+              </li>
+              <li className="cursor-pointer">
+                <a>Client</a>
+              </li>
+              <li className="cursor-pointer">
+                <a>Blog</a>
+              </li>
+              <li className="cursor-pointer">
+                <a>Contact</a>
               </li>
             </ul>
           </div>
