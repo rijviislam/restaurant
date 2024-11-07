@@ -10,7 +10,7 @@ import X from "../assets/twitter-round-new-alt.svg";
 export default function Footer() {
   return (
     <div className="flex items-center justify-center relative lg:h-[720px] h-[999px]">
-      <div className="lg:w-full min-w-[390px]  h-full z-30 bg-[#000000CC] lg:h-[720px] absolute"></div>
+      <div className="lg:w-full md:w-full sm:w-full w-full  h-full z-30 bg-[#000000CC] lg:h-[720px] absolute"></div>
       <img
         src={Bg}
         alt=""
@@ -23,7 +23,7 @@ export default function Footer() {
         >
           We ready to have you the best dining experiences
         </h1>
-        <div className="flex items-center lg:flex-row flex-col lg:gap-6 gap-6 lg:mt-12 mt-12">
+        <div className="flex items-center lg:flex-row md:flex-wrap sm:flex-wrap flex-col lg:gap-6 gap-6 lg:mt-12 mt-12">
           <div className="lg:w-[312px] lg:h-[144px] flex flex-col items-center">
             <img src={Clock} alt="Clock" className="w-[30px] h-[30px]" />
             <h1

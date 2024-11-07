@@ -118,7 +118,10 @@ export default function BookTable() {
             />
             {errors.exampleRequired && <span>This field is required</span>}
 
-            <button className="lg:py-[16px] py-[13px] px-5 md:py-[5px] sm:py-[2px] sm:px-[6px] md:px-[12px] lg:px-[24px] bg-[#FEBF00] text-[#0A1425] uppercase lg:text-lg text-[16px] lg:font-bold font-bold lg:block md:block sm:block placeholder-black">
+            <button
+              className="lg:py-[16px] py-[13px] px-5 md:py-[5px] sm:py-[2px] sm:px-[6px] md:px-[12px] lg:px-[24px] bg-[#FEBF00] text-[#0A1425] uppercase lg:text-lg text-[16px] lg:font-bold font-bold lg:block md:block sm:block placeholder-black"
+              style={{ fontFamily: "Roboto" }}
+            >
               Book Now
             </button>
           </form>

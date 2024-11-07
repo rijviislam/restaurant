@@ -12,7 +12,7 @@ export default function About() {
   const tabs = ["About", "Experience", "Contact"];
   return (
     <div className=" flex items-center justify-center relative">
-      <div className=" lg:my-[120px] lg:w-[1000px] xl:w-[1320px] lg:h-[624px] flex flex-col gap-[72px] lg:py-0 py-8">
+      <div className=" lg:my-[120px] lg:w-[1000px] xl:w-[1320px] lg:h-[624px] flex flex-col md:flex-col gap-[72px] lg:py-0 py-8">
         <div className=" flex lg:flex-row md:flex-row flex-col justify-between  lg:items-start md:items-start items-center lg:h-[460px]  gap-8 lg:gap-0 min-w-[330px]">
           <div className="lg:w-[617px] sm:w-[617px] sm:h-[246px] min-w-[330px] lg:px-0 sm:px-0 md:px-0 px-[30px]">
             <div className="lg:w-[617px] min-w-[330px] h-[246px] lg:h-[460px] relative ">
@@ -43,7 +43,7 @@ export default function About() {
               <img
                 src={AboutImg}
                 alt=""
-                className="absolute lg:w-[617px] w-full md:w-full sm:w-[617px] sm:h-[246px] object-cover"
+                className="absolute lg:w-[617px] lg:h-[460px] w-full md:w-full sm:w-[617px] sm:h-[246px] object-cover"
               />
             </div>
           </div>

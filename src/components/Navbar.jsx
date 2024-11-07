@@ -4,7 +4,7 @@ import Bg from "../assets/Rectangle 4.png";
 export default function Navbar() {
   return (
     <div
-      className=" z-50 bg-[#BD1F17] flex items-center justify-center lg:py-8 md:py-5 sm:py-5 py-5"
+      className=" z-50 bg-[#BD1F17] flex items-center justify-center lg:py-8 md:py-5 sm:py-5 py-5 mb-0"
       style={{
         backgroundImage: `url(${Bg})`,
       }}
@@ -18,7 +18,10 @@ export default function Navbar() {
             </h1>
           </div>
           <div className="">
-            <ul className="lg:flex lg:gap-10 md:gap-5 sm:gap-3 sm:flex hidden md:flex lg:text-[15px] lg:font-medium sm:text-[8px] md:text-[12px] text-white">
+            <ul
+              className="lg:flex lg:gap-10 md:gap-5 sm:gap-3 sm:flex hidden md:flex lg:text-[15px] lg:font-medium sm:text-[8px] md:text-[12px] text-white"
+              style={{ fontFamily: "Raleway" }}
+            >
               <li className="cursor-pointer">
                 <a>Home</a>
               </li>
